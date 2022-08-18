@@ -16,7 +16,7 @@ import com.dev.randomnamepicker.routes.home.HomeRoute
 import com.dev.randomnamepicker.routes.list.ListRoute
 
 @Composable
-fun Navigation(viewModel: AppVM = hiltViewModel()) {
+fun Navigation() {
     val navController = rememberNavController()
 
     Scaffold(modifier = Modifier.fillMaxSize()) {

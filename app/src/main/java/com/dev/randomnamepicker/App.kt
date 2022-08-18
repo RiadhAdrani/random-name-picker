@@ -5,6 +5,6 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import com.dev.randomnamepicker.navigation.Navigation
 
 @Composable
-fun App(viewModel: AppVM = hiltViewModel()) {
+fun App() {
     Navigation()
 }
